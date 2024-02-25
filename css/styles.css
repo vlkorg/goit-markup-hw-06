@@ -335,7 +335,7 @@ gap: 40px;
     }
 }
 
-/* BENEFITS*/
+/* ==========main-text=============*/
 
 .benefits {
     /* padding: 120px 0; */
@@ -458,7 +458,7 @@ gap: 40px;
 }
 
 
-/*TEAM*/
+/*=================TEAM==================*/
 .container-our-tean {
     padding: 0 32px;
 }
@@ -600,7 +600,7 @@ gap: 40px;
 
 }
 
-/*PORTFOLIO*/
+/*============PORTFOLIO*================*/
 
 .our-portfolio {
     /* padding: 120px 0; */
@@ -977,7 +977,7 @@ gap: 40px;
     }
 }
 
-/* MOB-MENU-FOR-HEADE */
+/* MENU-FOR-HEADE */
 
 .mob-menu {
     width: 100vw;
@@ -1105,7 +1105,7 @@ gap: 40px;
 }
 
 
-/*MODAL*/
+/*MODAL--open*/
 .backdrop {
     position: fixed;
     top: 0;
