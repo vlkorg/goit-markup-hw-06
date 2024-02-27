@@ -258,7 +258,7 @@ gap: 40px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     max-width: 216px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .hero-btn {
@@ -300,7 +300,7 @@ gap: 40px;
         font-size: 56px;
         max-width: 496px;
         line-height: 1.07;
-        padding-bottom: 36px;
+        margin-bottom: 36px;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
@@ -511,7 +511,6 @@ gap: 40px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
-    /* 120% */
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
@@ -525,7 +524,7 @@ gap: 40px;
     line-height: 1.50;
     /* 150% */
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .icon-list {
@@ -788,6 +787,7 @@ gap: 40px;
     letter-spacing: 0.02em;
     max-width: 264px;
     text-align: start;
+    /* margin-bottom: 72px; */
 }
 
 .footer-soc-icon-list {
@@ -799,6 +799,7 @@ gap: 40px;
     align-items: flex-start;
     justify-content: center;
     gap: 16px;
+    margin-bottom: 72px;
 }
 
 .footer-soc-text-icon {
@@ -925,6 +926,10 @@ gap: 40px;
         text-align: left;
     }
 
+    .footer-icon-list {
+        margin-bottom: 0%;
+    }
+
     .footer-logo-trans {
         margin-right: 24px;
     }
@@ -949,6 +954,7 @@ gap: 40px;
         margin-bottom: 16px;
 
     }
+
 }
 
 @media screen and (min-width: 1158px) {
@@ -995,8 +1001,10 @@ gap: 40px;
 }
 
 .mob-navigation {
-    padding-top: 72px;
-    padding-left: 16px;
+    /* padding-top: 72px;
+    padding-left: 16px; */
+    margin-top: 72px;
+    margin-left: 16px;
 
 }
 
@@ -1021,13 +1029,12 @@ gap: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-address {}
 
 .mob-adrees-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding-left: 16px;
+    margin-left: 16px;
 }
 
 .mob-address-item {
@@ -1053,7 +1060,7 @@ gap: 40px;
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 48px 24px 40px 16px;
+    margin: 48px 24px 40px 16px;
 }
 
 .mob-icon-item {
@@ -1102,6 +1109,20 @@ gap: 40px;
 .mob-modal-close-btn:focus {
     background-color: #404bbf;
     border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .mob-menu{
+        display: none;
+    }
+
+@media screen and (min-width: 1158px) {
+    .mob-menu {
+        display: none;
+    }
+    
+}
+    
 }
 
 
